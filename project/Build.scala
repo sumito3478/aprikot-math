@@ -12,6 +12,7 @@ object build extends Build {
   ).settings(
     Seq(
       libraryDependencies ++= Seq(
+        "info.sumito3478" %% "aprikot-threading" % "0.0.1",
         "info.sumito3478" %% "aprikot-unsafe" % "0.0.5"
         ),
       version := "0.0.1-SNAPSHOT"
